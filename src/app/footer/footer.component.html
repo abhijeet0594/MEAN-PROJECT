@@ -1,0 +1,157 @@
+<footer  *ngIf="!hideFooter"
+         class="main-wrapper container-fluid p-0" style="background-color: #f2f2f2;">
+  <div class="footer container pt-3">
+    <div class="new-footer col-md-12 row">
+      <div class="col-md-4 mb-4">
+        <div class="subscribe">
+          <div class="col-md-12 row">
+            <img alt="my logo"
+                 src="assets/sample-logo.svg"
+                 class="img-fluid pb-3">
+          </div>
+          <div class="col-md-12">
+            <p class="sample-des-footer">
+                Just upload an image, click the font you want to identify, 
+                then check out the results. For best results, 
+                upload a good quality image, and make sure the text is ...
+
+            </p>
+          </div>
+          <div id="newsletter-info-box"
+               class="alert alert-info"
+               style="display:none">
+          </div>
+          <div id="newsletter-info-box-error"
+               class="alert alert-danger"
+               style="display:none">
+
+          </div>
+          <span class="subscribe-newsletter">
+            Subscribe to our newsletter
+          </span>
+          <div class="news-letter">
+            <input type="email"
+                   aria-label="email id"
+                   id="newsletter-email-input"
+                   class="form-control">
+          </div>
+          <button type="button"
+                  id="news-letter-subscribe"
+                  class="btn btn-sm mt-3 btn-outline violet-btn subscribe-button">
+            Subscribe
+          </button>
+        </div>
+      </div>
+
+      <div class="col-md-2 links col-6 mb-4 hideinMobileView">
+
+        <p>
+          <a target="_blank"
+             href="{{ websiteURL }}about-us/our-background">
+            About Us
+          </a>
+        </p>
+        <p>
+          <a target="_blank"
+             href="{{ websiteURL }}about-us/sample-governance-structure">
+            Governance
+          </a>
+        </p>
+
+        <p>
+          <a target="_blank"
+             href="{{ websiteURL }}about-us/policies-and-procedures">
+            Policies &amp; Procedures
+          </a>
+        </p>
+        <p>
+          <a target="_blank"
+             href="{{ websiteURL }}about-us/board-of-governance">
+            Board of Governance
+          </a>
+        </p>
+        <p>
+          <a target="_blank"
+             href="{{ websiteURL }}about-us/academic-council">
+            Academic Council
+          </a>
+        </p>
+        <p>
+          <a target="_blank"
+             href="{{ websiteURL }}about-us/executive-council">
+            Executive Council
+          </a>
+        </p>
+        <p>
+          <a target="_blank"
+             href="{{ websiteURL }}about-us/core-principles">
+            Core Principles
+          </a>
+        </p>
+      </div>
+      <div class="col-md-2 links col-6 mb-4 hideinMobileView">
+        <p>
+          <a target="_blank"
+             href="{{ websiteURL }}privacy-policy">
+            Privacy Policy
+          </a>
+        </p>
+        <p>
+          <a target="_blank"
+             href="{{ websiteURL }}registration-terms">
+            Terms &amp; Conditions
+          </a>
+        </p>
+        <p>
+          <a target="_blank"
+             href="{{ websiteURL }}sites/default/files/pdf-files/Policies/ACCREDITATION_OF_PRIOR_LEARNING.pdf">
+            APL policy
+          </a>
+        </p>
+        <p><a target="_blank"
+              href="{{ websiteURL }}sites/default/files/pdf-files/Policies/Modern-Slavery-Policy.pdf">Modern Slavery
+          Policy</a></p>
+        <p>
+          <a target="_blank"
+             href="{{ websiteURL }}privacy-policy">
+            Anti-Bribery Policy
+          </a>
+        </p>
+      </div>
+      <div class="col-md-4 links mb-4 hideinMobileView">
+        <div style="top:25%; position: relative;">
+          <div style="font-size: 13px;">
+            A Subsidary entity of,<br>
+            <img src="assets/westford.svg"
+                 style="width: 170px;">
+          </div>
+          <div class="social-icons mb-3">
+            <a href="https://www.facebook.com/sample/"
+               target="_blank">
+              <img alt="facebook icon"
+                   src="assets/facebook.svg">
+            </a>
+            <a href="https://www.instagram.com/sample/"
+               target="_blank">
+              <img alt="instagram icon"
+                   src="assets/instagram.svg">
+            </a>
+            <a href="https://www.linkedin.com/school/sample/"
+               target="_blank">
+              <img alt="linkedin icon"
+                   src="assets/linkedin.svg">
+            </a>
+            <a href="https://twitter.com/sample/"
+               target="_blank">
+              <img alt="twitter icon"
+                   src="assets/twitter.svg">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    All Copyrights reserved @ SampleWebsite {{ this.currentYear }}
+  </div>
+</footer>

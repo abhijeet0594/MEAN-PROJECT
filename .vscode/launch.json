@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "command": "npm run start:server",
+            "name": "Run npm start",
+            "request": "launch",
+            "type": "node-terminal"
+        },
+    {
+        "name": "Launch Program",
+        "program": "${workspaceFolder}/server.js",
+        "request": "launch",
+        "skipFiles": [
+            "<node_internals>/**"
+        ],
+        "type": "node",
+        // "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v14.15.4/bin/node"
+    },
+  
+    ]
+}

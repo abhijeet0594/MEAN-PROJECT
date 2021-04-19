@@ -1,0 +1,87 @@
+
+<div class="topnav col-md-12">
+<!-- <mat-toolbar color="primary"> -->
+  <!-- <ul> -->
+  <!-- <span> -->
+    <!-- <div class="container"> -->
+      <div class="row">
+    <div class="anchor col-md-9">
+    <a mat-button routerLink="/">SAMPLE STORE</a>
+  <!-- </span> -->
+ 
+  <!-- <span style="margin-left: 20px;"> -->
+    <a mat-button routerLinkActive="mat-accent" routerLink="create">SEEDS</a>
+  <!-- </span> -->
+
+  <!-- <span style="margin-left: 20px;"> -->
+    <a mat-button routerLinkActive="mat-accent" routerLink="create">CROP PROTECTION</a>
+  <!-- </span> -->
+
+  <!-- <span style="margin-left: 20px;"> -->
+    <a mat-button routerLinkActive="mat-accent" routerLink="admin">KNOWLEDGE</a>
+  <!-- </span> -->
+
+  <!-- <span > -->
+    <a mat-button routerLinkActive="mat-accent" routerLink="test">SERVICES </a>
+  <!-- </span> -->
+   <input type="text" placeholder="Search..">
+  <!-- <span class="space"></span> -->
+  <!-- <ul>
+    <li *ngIf="isUserAuthenticated"> -->
+        <!-- <a *ngIf="isUserAuthenticated" routerLink="create" mat-button routerLinkActive="mat-accent">Crete Post</a> -->
+    <!-- </li> -->
+    <!-- <li *ngIf="!isUserAuthenticated"> -->
+      <!-- <a  *ngIf="!isUserAuthenticated" routerLink="/user/login" >Login</a> -->
+    <!-- </li> -->
+    <!-- <li *ngIf="!isUserAuthenticated"> -->
+      <!-- <a *ngIf="!isUserAuthenticated" routerLink="/user/signup" mat-button routerLinkActive="mat-accent">Signup</a> -->
+    <!-- </li> -->
+    <!-- <li *ngIf="isUserAuthenticated"> -->
+      <!-- <a *ngIf="isUserAuthenticated" mat-button (click)="onLogOut()">Logout</a> -->
+    <!-- </li> -->
+    <!-- <li> -->
+    <!-- </li> -->
+    <!-- <li> -->
+    
+    </div>
+     <!-- </li> -->
+  <!-- </ul> -->
+  <div class="anchor col-md-3">
+    <div class="row">
+  <ul>
+    <div class="col-md-3">
+  <li *ngIf="isUserAuthenticated">
+    <a routerLink="create" mat-button routerLinkActive="mat-accent">Crete Post</a>
+</li>
+</div>
+<div class="col-md-3">
+<li *ngIf="isUserAuthenticated">
+  <a  mat-button (click)="onLogOut()">Logout</a>
+</li>
+<li *ngIf="!isUserAuthenticated">
+  <a routerLink="/user/signup" mat-button routerLinkActive="mat-accent">Signup</a>
+  </li>
+  <li *ngIf="!isUserAuthenticated"> 
+    <a  *ngIf="!isUserAuthenticated" routerLink="/user/login" >Login</a>
+  </li>
+</div>
+<div class="col-md-3">
+<li *ngIf="isUserAuthenticated">
+  <a routerLink="/test" mat-button routerLinkActive="mat-accent">Test</a>
+</li>
+</div>
+<div class="col-md-3">
+ <app-award></app-award>
+  </div>
+
+   
+
+</ul>
+</div>
+</div>
+
+</div>
+
+
+<!-- </mat-toolbar> -->
+</div>
